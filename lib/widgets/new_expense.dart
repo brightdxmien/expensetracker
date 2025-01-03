@@ -136,7 +136,7 @@ class _NewExpenseState extends State<NewExpense> {
                   Navigator.of(context).pop();
                 },
                 child: Text("Cancel")),
-            TextButton(onPressed: _addExpense, child: Text("Save Expense")),
+            ElevatedButton(onPressed: _addExpense, child: Text("Save Expense")),
           ]),
         ],
       ),
